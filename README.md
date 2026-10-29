@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-nowyourlink-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://nowyourlink.com/
+nowyourlink is a daily sealed‑bid advertising auction platform that sells a single homepage Spotlight ad slot. Bids start at €1 and only the winning advertiser pays after payment and approval. The public API provides anonymous reads of settled Spotlights, metric purchases, and OAuth‑protected advertiser operations. Documentation and OpenAPI spec are available at https://nowyourlink.com/developers and https://nowyourlink.com/openapi.json.
+
+**Areas:** Advertising · Marketplace · Auction · API · Technology
+
+## nowyourlink-com on APIs.io
+
+Everything profiled for nowyourlink-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nowyourlink-com/](https://apis.io/providers/nowyourlink-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [nowyourlink-com Affiliate API](https://apis.io/apis/nowyourlink-com/nowyourlink-com-affiliate-api/) — The Affiliate API from nowyourlink-com — 11 operation(s) for affiliate.
+- [nowyourlink-com Agent API](https://apis.io/apis/nowyourlink-com/nowyourlink-com-agent-api/) — The Agent API from nowyourlink-com — 36 operation(s) for agent.
+- [nowyourlink-com Ask API](https://apis.io/apis/nowyourlink-com/nowyourlink-com-ask-api/) — The Ask API from nowyourlink-com — 1 operation(s) for ask.
+- [nowyourlink-com Checkout Sessions API](https://apis.io/apis/nowyourlink-com/nowyourlink-com-checkout-sessions-api/) — The Checkout Sessions API from nowyourlink-com — 5 operation(s) for checkout sessions.
+- [nowyourlink-com Sandbox API](https://apis.io/apis/nowyourlink-com/nowyourlink-com-sandbox-api/) — The Sandbox API from nowyourlink-com — 3 operation(s) for sandbox.
+- [nowyourlink-com Spotlight API](https://apis.io/apis/nowyourlink-com/nowyourlink-com-spotlight-api/) — The Spotlight API from nowyourlink-com — 1 operation(s) for spotlight.
+- [nowyourlink-com Spotlights API](https://apis.io/apis/nowyourlink-com/nowyourlink-com-spotlights-api/) — The Spotlights API from nowyourlink-com — 4 operation(s) for spotlights.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Nowyourlink Com Agentic Access](https://apis.io/agentic-access/nowyourlink-com/nowyourlink-com-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Nowyourlink Com Context](https://apis.io/jsonld/nowyourlink-com/nowyourlink-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [nowyourlink-com API Rules](https://apis.io/rules/nowyourlink-com/nowyourlink-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Nowyourlink Com Authentication](https://apis.io/security/nowyourlink-com/nowyourlink-com-authentication/)
+- [Nowyourlink Com Domain Security](https://apis.io/security/nowyourlink-com/nowyourlink-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Nowyourlink Com Scopes](https://apis.io/scopes/nowyourlink-com/nowyourlink-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Nowyourlink Com Plans Pricing](https://apis.io/plans/nowyourlink-com/nowyourlink-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Nowyourlink Com Rate Limits](https://apis.io/rate-limits/nowyourlink-com/nowyourlink-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://nowyourlink.com/)
+- [Documentation](https://nowyourlink.com/developers)
+- [Getting started](https://docs.nowyourlink.com/getting-started/)
+- [API reference](https://nowyourlink.com/openapi.json)
+- [Pricing](https://nowyourlink.com/pricing)
+- [Sign up](https://nowyourlink.com/signup)
+- [Support](https://nowyourlink.com/impressum)
+- [Blog](https://nowyourlink.com/blog)
+- [Privacy policy](https://nowyourlink.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 58.6** — strong · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 50.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 85.0 |
+| Access clarity | 53.2 |
+
+**Agent readiness 73.3** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/nowyourlink-com/](https://apis.io/providers/nowyourlink-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for nowyourlink-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/nowyourlink-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
